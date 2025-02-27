@@ -14,6 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/pokemonpedia",
+            "externalDependencies":[""],
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9a343595-ee2e-412d-803f-18a004c4d8cd"
   }
 }
