@@ -1,0 +1,8 @@
+<form (ngSubmit)="searchPokemon()">
+  <mat-form-field>
+    <input matInput type="text" name="pokemonName" [(ngModel)]="pokemonName" autocomplete="off" />
+    <button mat-icon-button [disabled]="!pokemonName" type="submit" matSuffix>
+      <mat-icon>search</mat-icon>
+    </button>
+  </mat-form-field>
+</form>
