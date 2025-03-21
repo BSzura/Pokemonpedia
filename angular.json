@@ -51,7 +51,8 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "https://BSzura.github.io/Pokemonpedia/"
+              "baseHref": "https://bszura.github.io/pokemonpedia/"
+              
             },
             "development": {
               "optimization": false,
